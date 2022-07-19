@@ -5,14 +5,62 @@ nav{
     margin: 0 8%;
 }
 
-h1{
-    font-size: 2em;
+.description h1{
+    font-size: 6em;
+    margin-top: 0;
 }
 
 a{
     text-decoration: none;
     margin-left: 30px;
     font-size: 2em;
-    
+}
+
+.button{
+    text-decoration: none;
+    margin-left: 30px;
+    background-color: #E02C6D;
+    border-radius: 20px;
+    padding: 10px 30px;
+    color: white;
+    font-size: 2em;
+    margin-top: 300px; 
+
+}
+
+.products{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    margin: 0 8%;
+    margin-top: 0;
     
 }
+
+.description, .main-camera{
+    width: 100%;
+}
+
+.circle{
+    background-color: rgb(245, 236, 238);
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    position: relative;
+    top: 100px;
+    left: 240px;
+
+}
+
+.camera-position{
+    width: 450px;
+    height: 400px;
+    margin-left: 16%;
+    border: 10px solid rgb(245, 236, 238);
+    border-radius: 50%;
+    padding: 20px;
+    position: relative;
+    left: 20px;
+    top: -280px;
+    
+} 
